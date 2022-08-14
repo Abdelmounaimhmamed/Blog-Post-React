@@ -1,0 +1,49 @@
+.Settings{
+    display: flex;
+}
+
+.SettingsParams{
+    flex:9;
+}
+.SettingsTitles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.updateAccount{
+    color: pink;
+    font-size: 40Px;
+    cursor: pointer;
+}
+.DeleteAccount{
+    color: red;
+    cursor: pointer;
+}
+.ProfilePic{
+    margin-left: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.inpute{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 19px;
+    outline: none;
+    border: 1Px solid gray;
+    margin: 10px;
+}

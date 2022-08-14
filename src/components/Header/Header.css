@@ -1,0 +1,29 @@
+.header{
+    margin-top: 60px;
+}
+.headerTiltles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    background-position: center;
+    margin-top: 50px;
+}
+.headertilteSm {
+    font-size: 20px;
+    position: absolute;
+    top: 11%;
+    color : #444;
+}
+.headertitleLg{
+    font-size: 100px;
+    position: absolute;
+    top : 16%;
+    font-family: monospace;
+    color : #444;
+}

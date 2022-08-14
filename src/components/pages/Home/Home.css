@@ -1,0 +1,5 @@
+.containeree{
+    display: flex;
+    flex-direction: row;
+    flex: 9;
+}

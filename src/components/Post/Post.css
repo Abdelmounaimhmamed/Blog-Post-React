@@ -1,0 +1,50 @@
+.Post{
+    margin: 20px;
+    width: 385px;
+}
+.img {
+    min-width: 100%;
+    border-radius: 10px;
+}
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Postcats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.postcat{
+    color: orange;
+    margin: 10px 30px;
+    font-size: 21Px;
+}
+.PostTilte{
+    font-size: 34px;
+    text-transform: capitalize;
+    font-family: 'Varela Round', sans-serif;
+}
+.postdate{
+    color: gray;
+}
+hr {
+    width: 50%;
+    margin: 10px 0px;
+}
+.para{
+    color: rgb(63, 63, 63);
+    width: 100%;
+    padding: 10px;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 15px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}

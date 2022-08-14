@@ -1,0 +1,25 @@
+.SinglePost{
+    flex: 9;
+}
+.custum{
+   width:700Px;
+   height: 500Px;
+   margin:20px  100px;
+   border-radius: 20px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.icons > i{
+    color: red;
+    margin: 20px 30px;
+    font-size: 30px;
+}
+
+.par{
+    margin: 20px;
+    width: 80%;
+}
